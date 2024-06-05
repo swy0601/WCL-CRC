@@ -1,11 +1,14 @@
-#Title: A Weakly-Supervised Contrastive Learning Framework for Few-Shot Code Readability Classification (WCR-CLC)
+# Title: 
+A Weakly-Supervised Contrastive Learning Framework for Few-Shot Code Readability Classification (WCR-CLC)
 
-Introduction: This project provide the code of WCR-CLC.
+# Introduction: 
+This project provide the code of WCR-CLC.
 
-Installation:  python 3.10，bert
+# Installation:  
+python 3.10
+Bert
 
-Usage:  
-
+# Usage:  
 Please read our article first to understand the code process as well as the datasets corresponding to pre-training and fine-tuning.
 
 For the token-based backbone network, we first run the token-based_pre.py for pre-training and save the generated model weights in the s.h5. Then, we run fine-texture.py for fine-tuning to obtain the results. During this period, please make sure to use the correct dataset.
